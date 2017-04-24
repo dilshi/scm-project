@@ -1,4 +1,12 @@
 <html>
+<head>
+<script>
+function backgroundchanger( )
+{
+document.body.style.backgroundColor =f1.c.value;
+}
+</script>
+</head>
 <style type="text/css">
 div#head{
 left:1px;
@@ -7,6 +15,14 @@ width:1357px;
 height:80px;
 position:absolute;
 top:1px;
+}
+div#theme
+{
+background-color:rgba(81,81,122,0.5);
+width:150px;
+height:23px;
+position:absolute;
+top:90px;
 }
 body
 {
@@ -25,6 +41,11 @@ left:10px;
 <div id="head">
 <img class="logo" src="voterlogo.png">
 <font size="16" color= ""style="font-family:;"><center>VOTER ID DETAILS</center></font>
+</div>
+<div id="theme">
+<form name="f1">
+<input type="color" name="c"/><input type="button" name="theme" value ="Change Theme" Onclick = "backgroundchanger();"/>
+</form>
 </div>
 </body>
 </html>

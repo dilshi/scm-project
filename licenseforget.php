@@ -2,6 +2,12 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="parallax.min.js"></script>
+<script>
+function backgroundchanger( )
+{
+document.body.style.backgroundColor =f1.c.value;
+}
+</script>
 </head>
 <style type="text/css">
 .parallax-window {
@@ -23,6 +29,14 @@ width:1357px;
 height:80px;
 position:absolute;
 top:1px;
+}
+div#theme
+{
+background-color:rgba(81,81,122,0.5);
+width:150px;
+height:23px;
+position:absolute;
+top:90px;
 }
 img.logo
 {
@@ -68,6 +82,11 @@ width:90%;
 <div id="head">
 <img class="logo" src="logo.png">
 <font size="16" style="font-family:;"><center>DRIVING LICENCE FORGET PASSWORD</center></font>
+</div>
+<div id="theme">
+<form name="f1">
+<input type="color" name="c"/><input type="button" name="theme" value ="Change Theme" Onclick = "backgroundchanger();"/>
+</form>
 </div>
 <div id="login">
 <form name="licenseforget" method="post" action="licensedetails.php">
