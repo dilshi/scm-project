@@ -221,6 +221,8 @@ width:72%;
 <option value="dish">What is your favorite Dish?</option></select>
 </th></tr><tr></tr><tr></tr>
 <tr><th><font class="form">Answer:</font></th><th></th><th><input type="text" name="answer" required></th></tr><tr></tr><tr></tr>
+<tr><th><font class="form">Document:</font></th><th><input type="checkbox" name="en" value="noen" required>Birth Certificate</th><th><input type="file" name="file" required></th></tr><tr></tr><tr></tr>
+<tr><th></th><th><input type="checkbox" name="en" value="tc" required>Passport photo</th><th><input type="file" file="img" required></th></tr><tr></tr><tr></tr>
 <tr><th colspan="2"><input class="form_button" type="submit" name='sub' value="Submit"></th><th><input class="form_button" type="reset" name="clear" value="Clear"></th></tr>
 </table>
 </form>

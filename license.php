@@ -252,6 +252,10 @@ width:72%;
 <option value="dish">What is your favorite Dish?</option></select>
 </th></tr><tr></tr><tr></tr>
 <tr><th><font class="form">Answer:</font></th><th></th><th><input type="text" name="ans" required></th></tr><tr></tr><tr></tr>
+<tr><th><font class="form">Document:</font></th><th><input type="checkbox" name="en" value="noen">Birth Certificate</th><th><input type="file"/></th></tr><tr></tr><tr></tr>
+<tr><th></th><th><input type="checkbox" name="vid" value="vid">Voter ID</th><th><input type="file"></th></tr><tr></tr><tr></tr>
+<tr><th></th><th><input type="checkbox" name="ac" value="ac">Aadhar Card</th><th><input type="file"></th></tr><tr></tr><tr></tr>
+<tr><th></th><th><input type="checkbox" name="en" value="tc">Passport photo</th><th><input type="file" file="img"></th></tr><tr></tr><tr></tr>
 <tr><th colspan="2"><input class="form_button" type="submit" name="sub" value="Submit"></th><th><input class="form_button" type="reset" name="clear" value="Clear"></th></tr>
 </table>
 <div style="width:300px; height:70px; background-color:rgba(81,81,122,0.5); position:absolute; top:860px; left:-360px; padding:25px;">

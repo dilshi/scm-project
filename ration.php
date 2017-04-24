@@ -265,6 +265,11 @@ echo '<th><input type="text" name="member-'.$i.'"></th></tr>';
 <option value="dish">What is your favorite Dish?</option></select>
 </th></tr><tr></tr><tr></tr>
 <tr><th><font class="form">Answer:</font></th><td></td><th><input type="text" name="answer" required></th></tr><tr></tr><tr></tr>
+<tr><th><font class="form">Attachment:</font></th><td><input type="checkbox" name="en" value="noen"><b>Birth Certificate</b></td><td><input type="file"/></th></tr><tr></tr><tr></tr>
+<tr><th></th><td><input type="checkbox" name="mc" value="mc"><b>Marriage Certificate</b></td><th><input type="file" file="img"></th></tr>
+<tr><th></th><td><input type="checkbox" name="ac" value="ac"><b>Aadhar card</b></td><th><input type="file"></th></tr>
+<tr><th></th><td><input type="checkbox" name="vid" value="vid"><b>Voter ID</b></td><th><input type="file"></th></tr>
+<tr><th></th><td><input type="checkbox" name="pp" value="tc"><b>Passport photo</b></td><th><input type="file" file="img"></th></tr><tr></tr><tr></tr>
 <tr><th colspan="2"><input class="form_button" type="submit" value="Submit" name="sub"></th><th><input class="form_button" type="reset" name="clear" value="Clear"></th></tr>
 </table>
 <div style="width:300px; height:70px; background-color:rgba(81,81,122,0.5); position:absolute; top:910px; left:-360px; padding:25px;">

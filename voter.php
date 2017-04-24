@@ -264,6 +264,15 @@ function pm(rep)
   <tr><th>Answer:</th>
   <th><input type="text" name="answer" placeholder="Answer" required></th></tr>
   <tr><th>Attachement:</th></tr>
+  <tr><th>
+  <input type="checkbox" name="en"/>Adhaar Card</th>
+  <th><input type="file"/></th></tr>
+  <tr><th>
+  <input type="checkbox" name="en"/>Birth Certificate</th>
+  <th><input type="file"/></th></tr>
+  <tr><th>
+  <input type="checkbox" name="en"/>Passport photo</th>
+  <th><input type="file"/></th></tr>
   <tr><th style="text-align:right"><input type="submit" name="sub"/></th><th><input type="reset"></th></tr>
   </table>
 </form>
