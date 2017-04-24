@@ -6,7 +6,7 @@ unset($_SESSION['my_captcha']);
 }
 $string="abcdefghijklmnopqrstuvwxyz1234567890";
 $string= str_shuffle($string);
-$random_text= substr($string,0,8); 
+$random_text= substr($string,0,5); 
 $_SESSION['my_captcha'] =$random_text; 
 $im=imagecreatetruecolor(80,20) or die("Cannot Initialize Captcha");
 $background_color=imagecolorallocate($im,204,204,204); 
