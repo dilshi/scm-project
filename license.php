@@ -3,10 +3,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="parallax.min.js"></script>
 <script type="text/javascript">
-function backgroundchanger( )
-{
-document.body.style.backgroundColor =f1.c.value;
-}
 function check(fname)
 {
 	var letters=/^[A-Za-z]+$/;
@@ -117,14 +113,6 @@ height:80px;
 position:absolute;
 top:1px;
 }
-div#theme
-{
-background-color:rgba(81,81,122,0.5);
-width:150px;
-height:23px;
-position:absolute;
-top:90px;
-}
 img.logo
 {
 width:45px;
@@ -199,11 +187,6 @@ width:72%;
 <img class="logo" src="logo.png">
 <font size="16" style="font-family:;"><center>DRIVING LICENCE REGISTRATION</center></font>
 </div>
-<div id="theme">
-<form name="f1">
-<input type="color" name="c"/><input type="button" name="theme" value ="Change Theme" Onclick = "backgroundchanger();"/>
-</form>
-</div>
 <div id="login">
 <center>
 <form name="login" method="post" action="licensedetails.php">
@@ -272,7 +255,7 @@ width:72%;
 <tr><th><font class="form">Document:</font></th><th><input type="checkbox" name="en" value="noen">Birth Certificate</th><th><input type="file"/></th></tr><tr></tr><tr></tr>
 <tr><th></th><th><input type="checkbox" name="vid" value="vid">Voter ID</th><th><input type="file"></th></tr><tr></tr><tr></tr>
 <tr><th></th><th><input type="checkbox" name="ac" value="ac">Aadhar Card</th><th><input type="file"></th></tr><tr></tr><tr></tr>
-<tr><th></th><th><input type="checkbox" name="en" value="tc">Passport photo</th><th><input type="file" file="img"></th></tr><tr></tr><tr></tr>
+<tr><th></th><th><input type="checkbox" name="en" value="tc">Passport photo</th><th><input type="image" file="img"></th></tr><tr></tr><tr></tr>
 <tr><th colspan="2"><input class="form_button" type="submit" name="sub" value="Submit"></th><th><input class="form_button" type="reset" name="clear" value="Clear"></th></tr>
 </table>
 <div style="width:300px; height:70px; background-color:rgba(81,81,122,0.5); position:absolute; top:860px; left:-360px; padding:25px;">

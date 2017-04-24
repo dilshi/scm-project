@@ -40,14 +40,6 @@ height:80px;
 position:absolute;
 top:1px;
 }
-div#theme
-{
-background-color:rgba(81,81,122,0.5);
-width:150px;
-height:23px;
-position:absolute;
-top:90px;
-}
 div#login
 {
 background-color:rgba(81,81,122,0.5);
@@ -117,10 +109,6 @@ background-color: 6666ff;
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="parallax.min.js"></script>
 <script type="text/javascript">
-function backgroundchanger( )
-{
-document.body.style.backgroundColor =f1.c.value;
-}
 function check(fname)
 {
 	var letters=/^[A-Za-z]+$/;
@@ -208,11 +196,6 @@ function pm(rep)
 <img class="logo" src="voterlogo.png">
 <font size="16" color=""style="font-family:;"><center>VOTER ID REGISTRATION</center></font>
 </div>
-<div id="theme">
-<form name="f1">
-<input type="color" name="c"/><input type="button" name="theme" value ="Change Theme" Onclick = "backgroundchanger();"/>
-</form>
-</div>
 <div id="login">
 <center>
 <form name="login" method="post" action="voterdetails.php">
@@ -289,7 +272,7 @@ function pm(rep)
   <th><input type="file"/></th></tr>
   <tr><th>
   <input type="checkbox" name="en"/>Passport photo</th>
-  <th><input type="file"/></th></tr>
+  <th><input type="image"/></th></tr>
   <tr><th style="text-align:right"><input type="submit" name="sub"/></th><th><input type="reset"></th></tr>
   </table>
 </form>

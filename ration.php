@@ -3,10 +3,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="parallax.min.js"></script>
 <script type="text/javascript">
-function backgroundchanger( )
-{
-document.body.style.backgroundColor =f1.c.value;
-}
 function check(fname)
 {
 	var letters=/^[A-Za-z]+$/;
@@ -117,14 +113,6 @@ height:80px;
 position:absolute;
 top:1px;
 }
-div#theme
-{
-background-color:rgba(81,81,122,0.5);
-width:150px;
-height:23px;
-position:absolute;
-top:90px;
-}
 img.logo
 {
 width:80px;
@@ -208,11 +196,6 @@ width:73%;
 <img class="logo" src="rationlogo.png">
 <font size="16" style="font-family:;"><center>RATION CARD REGISTRATION</center></font>
 </div>
-<div id="theme">
-<form name="f1">
-<input type="color" name="c"/><input type="button" name="theme" value ="Change Theme" Onclick = "backgroundchanger();"/>
-</form>
-</div>
 <div id="login">
 <center>
 <form name="login" method="post" action="rationdetails.php">
@@ -286,7 +269,7 @@ echo '<th><input type="text" name="member-'.$i.'"></th></tr>';
 <tr><th></th><td><input type="checkbox" name="mc" value="mc"><b>Marriage Certificate</b></td><th><input type="file" file="img"></th></tr>
 <tr><th></th><td><input type="checkbox" name="ac" value="ac"><b>Aadhar card</b></td><th><input type="file"></th></tr>
 <tr><th></th><td><input type="checkbox" name="vid" value="vid"><b>Voter ID</b></td><th><input type="file"></th></tr>
-<tr><th></th><td><input type="checkbox" name="pp" value="tc"><b>Passport photo</b></td><th><input type="file" file="img"></th></tr><tr></tr><tr></tr>
+<tr><th></th><td><input type="checkbox" name="pp" value="tc"><b>Passport photo</b></td><th><input type="image" file="img"></th></tr><tr></tr><tr></tr>
 <tr><th colspan="2"><input class="form_button" type="submit" value="Submit" name="sub"></th><th><input class="form_button" type="reset" name="clear" value="Clear"></th></tr>
 </table>
 <div style="width:300px; height:70px; background-color:rgba(81,81,122,0.5); position:absolute; top:910px; left:-360px; padding:25px;">
